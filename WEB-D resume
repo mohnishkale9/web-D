@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Resume - Mohnish kale</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.5;
+        }
+        header {
+            text-align: center;
+        }
+        header img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+        }
+        h2 {
+            margin-top: 20px;
+            border-bottom: 1px solid #333;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        table, th, td {
+            border: 1px solid #333;
+        }
+        th, td {
+            padding: 5px;
+            text-align: left;
+        }
+        a {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="profile.jpg" alt="Mohnish Kale">
+    <h1>Mohnish Kale</h1>
+    <p>Email: <a href="mailto:MohnishKale@example.com">MohnishKale@example.com</a></p>
+</header>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>React.js</li>
+        <li>Responsive Design</li>
+    </ul>
+</section>
+
+<section>
+  <h2>Description</h2>
+  <li>Results-driven web developer with [8 years] of experience building high-performance, scalable web applications. Expert in HTML5, CSS3, JavaScript, React, Node.js, and modern web frameworks, with a proven ability to transform complex requirements into seamless, user-friendly digital experiences. Skilled in optimizing website performance, implementing responsive designs, and delivering robust solutions that drive engagement and business growth. Passionate about leveraging technology to solve real-world problems and continuously innovate.”</li>
+</section>
+
+<section>
+    <h2>Work Experience</h2>
+    <table>
+        <tr>
+            <th>Company</th>
+            <th>Role</th>
+            <th>Year</th>
+        </tr>
+        <tr>
+            <td>IBM Tech</td>
+            <td>Frontend Developer</td>
+            <td>2020 - Present</td>
+        </tr>
+        <tr>
+            <td>NVDIA Tech Solutions</td>
+            <td>Web Designer</td>
+            <td>2018 - 2023</td>
+        </tr>
+    </table>
+</section>
+
+<section>
+    <h2>Education</h2>
+    <ul>
+        <li>10th Grade - <a  target="_blank">Mount Carmel</a></li>
+    </ul>
+    <ul>
+      <li>12th Grade - <a >ARYA Junior College</a></li>
+    </ul>
+    <ul>
+      <li>B-Tech - <a >VNIT</a></li>
+    </ul>
+</section>
+
+<section>
+  <h2>Hobbies</h2>
+  <ul>
+    <li>Reading</li>
+    <li>Writing Novels</li>
+    <li> Playing Chess</li>
+  </ul>
+</section>
+
+<section>
+    <h2>Links</h2>
+    <ul>
+        <li>Portfolio: <a  target="_blank">www.Mohnishportfolio.com</a></li>
+        <li>GitHub: <a href="https://github.com/Mohnish" target="_blank">github.com/Mohnish</a></li>
+        <li>LinkedIn: <a  target="_blank">linkedin.com/in/Mohnish</a></li>
+    </ul>
+</section>
+
+</body>
+</html>
