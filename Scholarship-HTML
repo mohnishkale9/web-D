@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Scholarship Application</title>
+    <style>
+        body {
+            font-family: Verdana, sans-serif;
+            background-color: #ADD8E6;
+        }
+        form {
+            width: 470px;
+            margin: 30px auto;
+            background: #ffffff;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        fieldset {
+            margin-bottom: 20px;
+            border: 2px solid #5c9ead;
+            padding: 15px;
+            background-color: #eaf6f6;
+        }
+        legend {
+            color: #2c3e50;
+            font-weight: bold;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 7px;
+            margin-top: 5px;
+        }
+        .inline {
+            width: auto;
+        }
+        input[type="submit"] {
+            background-color: #5c9ead;
+            color: white;
+            border: none;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #417d7a;
+        }
+
+        /* Footer style */
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #5c9ead;
+            color: white;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<form>
+    <fieldset>
+        <legend>Applicant Details</legend>
+
+        <label>First Name:</label>
+        <input type="text" name="fname">
+
+        <label>Last Name:</label>
+        <input type="text" name="lname">
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+
+        <label>Category:</label>
+        <input type="radio" name="category" value="general" class="inline"> General
+        <input type="radio" name="category" value="obc" class="inline"> OBC
+        <input type="radio" name="category" value="sc" class="inline"> SC/ST
+    </fieldset>
+
+    <fieldset>
+        <legend>Education Details</legend>
+
+        <label>Highest Qualification:</label>
+        <select name="qualification">
+            <option>--Select--</option>
+            <option>12th Pass</option>
+            <option>Diploma</option>
+            <option>Undergraduate</option>
+            <option>Postgraduate</option>
+            <option>Masters</option>
+        </select>
+
+        <label>University/College:</label>
+        <input type="text" name="college">
+
+        <label>Year of Passing:</label>
+        <input type="number" name="year">
+
+        <label>Grade/CGPA:</label>
+        <input type="text" name="grade">
+    </fieldset>
+
+    <fieldset>
+        <legend>Extracurricular Activities</legend>
+
+        <input type="checkbox" class="inline" name="activities" value="music"> Entrepreneurship <br>
+        <input type="checkbox" class="inline" name="activities" value="sports"> Sports<br>
+        <input type="checkbox" class="inline" name="activities" value="volunteering"> Volunteering<br>
+        <input type="checkbox" class="inline" name="activities" value="art"> Singing
+   </fieldset>
+
+    <fieldset>
+        <legend>Address</legend>
+
+        <label>City:</label>
+        <input type="text" name="city">
+
+        <label>State:</label>
+        <input type="text" name="state">
+
+        <label>Country:</label>
+        <select name="country">
+            <option>--Select Country--</option>
+            <option>India</option>
+            <option>USA</option>
+            <option>UK</option>
+            <option>Canada</option>
+            <option>Germany</option>
+        </select>
+    </fieldset>
+
+    <fieldset>
+        <legend>Statement of Purpose</legend>
+
+        <label>Why do you deserve this scholarship?</label>
+        <textarea rows="8" name="sop"></textarea>
+    </fieldset>
+
+    <input type="submit" value="Submit Application">
+</form>
+
+<!-- Copyright Footer -->
+<footer>
+    © 2026 Scholarship Portal. All Rights Reserved.
+</footer>
+
+</body>
+</html>
