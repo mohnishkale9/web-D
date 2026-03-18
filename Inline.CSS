@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Professional Profile Page</title>
+</head>
+
+<body style="height:100%; margin:0; font-family:'Segoe UI',sans-serif; background:linear-gradient(135deg,#1e90ff,#6dd5ed);">
+
+<div style="min-height:100%; display:flex; flex-direction:column;">
+
+<!-- Navigation -->
+<nav style="background:#0b3c5d; padding:15px 0; text-align:center; box-shadow:0 2px 8px rgba(0,0,0,0.3);">
+    <a href="#" style="color:white; text-decoration:none; margin:20px; font-size:18px; font-weight:600; transition:0.3s;">Home</a>
+    <a href="#" style="color:white; text-decoration:none; margin:20px; font-size:18px; font-weight:600; transition:0.3s;">About</a>
+    <a href="#" style="color:white; text-decoration:none; margin:20px; font-size:18px; font-weight:600; transition:0.3s;">Skills</a>
+    <a href="#" style="color:white; text-decoration:none; margin:20px; font-size:18px; font-weight:600; transition:0.3s;">Contact</a>
+</nav>
+
+<!-- Profile Card -->
+<div style="width:80%; margin:40px auto; background:white; border-radius:15px; box-shadow:0 10px 30px rgba(0,0,0,0.25); overflow:hidden; flex:1;">
+
+<div style="background:#0b3c5d; color:white; text-align:center; padding:35px;">
+    <img src="https://via.placeholder.com/150" style="width:150px; height:150px; border-radius:50%; border:5px solid white; margin-bottom:10px;">
+    <h1>Mohnish Kale</h1>
+    <p>Student | Web Designer | Frontend Learner</p>
+</div>
+
+<div style="display:flex; flex-wrap:wrap;">
+
+<!-- Left Side -->
+<div style="width:35%; background:#f4f9ff; padding:25px;">
+
+<div style="margin-bottom:25px;">
+<h2 style="color:#0b3c5d; border-bottom:3px solid #1e90ff; padding-bottom:5px;">Contact</h2>
+<p>Email: mohnish@email.com</p>
+<p>Phone: +91 9874543210</p>
+<p>Location: India</p>
+</div>
+
+<div style="margin-bottom:25px;">
+<h2 style="color:#0b3c5d; border-bottom:3px solid #1e90ff; padding-bottom:5px;">Skills</h2>
+<span style="background:#1e90ff; color:white; display:inline-block; padding:6px 12px; margin:5px; border-radius:20px; font-size:14px;">HTML</span>
+<span style="background:#1e90ff; color:white; display:inline-block; padding:6px 12px; margin:5px; border-radius:20px; font-size:14px;">CSS</span>
+<span style="background:#1e90ff; color:white; display:inline-block; padding:6px 12px; margin:5px; border-radius:20px; font-size:14px;">Web Design</span>
+<span style="background:#1e90ff; color:white; display:inline-block; padding:6px 12px; margin:5px; border-radius:20px; font-size:14px;">Communication</span>
+</div>
+
+</div>
+
+<!-- Right Side -->
+<div style="width:65%; padding:25px;">
+
+<div style="margin-bottom:25px;">
+<h2 style="color:#0b3c5d; border-bottom:3px solid #1e90ff; padding-bottom:5px;">About Me</h2>
+<p>I am a passionate student interested in web development and modern
+website design. I enjoy creating clean and user-friendly webpages
+using HTML and CSS while continuously improving my frontend skills.</p>
+</div>
+
+<div style="margin-bottom:25px;">
+<h2 style="color:#0b3c5d; border-bottom:3px solid #1e90ff; padding-bottom:5px;">Education</h2>
+<p>Diploma in Computer Engineering</p>
+</div>
+
+<div style="margin-bottom:25px;">
+<h2 style="color:#0b3c5d; border-bottom:3px solid #1e90ff; padding-bottom:5px;">Projects</h2>
+<ul style="padding-left:20px; line-height:1.8;">
+<li>Profile Webpage Design</li>
+<li>Seminar Registration Form</li>
+<li>Student Record Table</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Footer -->
+<footer style="background:#0b3c5d; color:white; text-align:center; padding:15px;">
+<p>© 2026 Mohnish Kale | Professional Profile Page</p>
+</footer>
+
+</div>
+
+</body>
+</html>
