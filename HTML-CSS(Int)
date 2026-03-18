@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Professional Profile Page</title>
+
+<style>
+
+/* ===== Body ===== */
+html,body{
+    height:100%;
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:linear-gradient(135deg,#1e90ff,#6dd5ed);
+}
+
+.wrapper{
+    min-height:100%;
+    display:flex;
+    flex-direction:column;
+}
+
+/* ===== Navigation Bar ===== */
+nav{
+    background:#0b3c5d;
+    padding:15px 0;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(0,0,0,0.3);
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:20px;
+    font-size:18px;
+    font-weight:600;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#6dd5ed;
+}
+
+/* ===== Main Card ===== */
+.container{
+    width:80%;
+    margin:40px auto;
+    background:white;
+    border-radius:15px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.25);
+    overflow:hidden;
+    flex:1;
+}
+
+/* ===== Header Profile ===== */
+.header{
+    background:#0b3c5d;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+.header img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    border:5px solid white;
+    margin-bottom:10px;
+}
+
+/* ===== Content Layout ===== */
+.content{
+    display:flex;
+    flex-wrap:wrap;
+}
+
+/* Left Panel */
+.left{
+    width:35%;
+    background:#f4f9ff;
+    padding:25px;
+}
+
+.right{
+    width:65%;
+    padding:25px;
+}
+
+/* Section Style */
+.section{
+    margin-bottom:25px;
+}
+
+h2{
+    color:#0b3c5d;
+    border-bottom:3px solid #1e90ff;
+    padding-bottom:5px;
+}
+
+ul{
+    padding-left:20px;
+    line-height:1.8;
+}
+
+/* Skill Badge */
+.skill{
+    background:#1e90ff;
+    color:white;
+    display:inline-block;
+    padding:6px 12px;
+    margin:5px;
+    border-radius:20px;
+    font-size:14px;
+}
+
+/* ===== Footer ===== */
+footer{
+    background:#0b3c5d;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="wrapper">
+
+<!-- Navigation -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Skills</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- Profile Card -->
+<div class="container">
+
+<div class="header">
+    <img src="https://via.placeholder.com/150">
+    <h1>Mohnish Kale</h1>
+    <p>Student | Web Designer | Frontend Learner</p>
+</div>
+
+<div class="content">
+
+<!-- Left Side -->
+<div class="left">
+
+<div class="section">
+<h2>Contact</h2>
+<p>Email: mohnish@email.com</p>
+<p>Phone: +91 9874543210</p>
+<p>Location: India</p>
+</div>
+
+<div class="section">
+<h2>Skills</h2>
+<span class="skill">HTML</span>
+<span class="skill">CSS</span>
+<span class="skill">Web Design</span>
+<span class="skill">Communication</span>
+</div>
+
+</div>
+
+<!-- Right Side -->
+<div class="right">
+
+<div class="section">
+<h2>About Me</h2>
+<p>
+I am a passionate student interested in web development and modern
+website design. I enjoy creating clean and user-friendly webpages
+using HTML and CSS while continuously improving my frontend skills.
+</p>
+</div>
+
+<div class="section">
+<h2>Education</h2>
+<p>Diploma in Computer Engineering</p>
+</div>
+
+<div class="section">
+<h2>Projects</h2>
+<ul>
+<li>Profile Webpage Design</li>
+<li>Seminar Registration Form</li>
+<li>Student Record Table</li>
+</ul>
+</div>
+
+</div>
+
+</div>
+</div>
+
+<!-- Footer -->
+<footer>
+<p>© 2026 Mohnish Kale | Professional Profile Page</p>
+</footer>
+
+</div>
+
+</body>
+</html>
