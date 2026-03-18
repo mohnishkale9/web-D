@@ -1,0 +1,114 @@
+/* ===== Body ===== */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #1e90ff, #6dd5ed);
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ===== Navigation Bar ===== */
+nav {
+    background: #0b3c5d;
+    padding: 15px 0;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #6dd5ed;
+}
+
+/* ===== Main Card ===== */
+.container {
+    width: 80%;
+    margin: 40px auto;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    flex: 1;
+}
+
+/* ===== Header Profile ===== */
+.header {
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 35px;
+}
+
+.header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin-bottom: 10px;
+}
+
+/* ===== Content Layout ===== */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Left Panel */
+.left {
+    width: 35%;
+    background: #f4f9ff;
+    padding: 25px;
+}
+
+.right {
+    width: 65%;
+    padding: 25px;
+}
+
+/* Section Style */
+.section {
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #0b3c5d;
+    border-bottom: 3px solid #1e90ff;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* Skill Badge */
+.skill {
+    background: #1e90ff;
+    color: white;
+    display: inline-block;
+    padding: 6px 12px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+/* ===== Footer ===== */
+footer {
+    background: #0b3c5d;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
