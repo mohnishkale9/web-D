@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Landing Page</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap" rel="stylesheet">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<style>
+:root {
+  --primary: #0a66c2;
+  --dark: #1f2937;
+  --light: #f9fafb;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: var(--dark);
+  background: var(--light);
+}
+
+/* NAVBAR */
+.navbar {
+  position: sticky;
+  top: 0;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 40px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  z-index: 1000;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: var(--dark);
+  transition: 0.3s;
+}
+
+.navbar a:hover {
+  color: var(--primary);
+}
+
+/* HERO */
+.hero {
+  padding: 80px 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.hero-text p {
+  margin-bottom: 20px;
+  color: #555;
+}
+
+.btn {
+  padding: 12px 25px;
+  background: var(--primary);
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #004182;
+  transform: translateY(-2px);
+}
+
+/* SERVICES */
+.services {
+  padding: 60px 40px;
+  background: white;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.service {
+  padding: 20px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.service i {
+  font-size: 28px;
+  color: var(--primary);
+  margin-bottom: 10px;
+}
+
+.service:hover {
+  background: #f1f5f9;
+  transform: translateY(-5px);
+}
+
+/* ABOUT MULTI-COLUMN */
+.about {
+  padding: 60px 40px;
+}
+
+.about-text {
+  column-count: 2;
+  column-gap: 30px;
+  color: #444;
+}
+
+/* FOOTER */
+footer {
+  background: var(--dark);
+  color: white;
+  padding: 40px;
+}
+
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+footer a {
+  color: #ccc;
+  text-decoration: none;
+  display: block;
+  margin: 5px 0;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/* ANIMATION */
+.fade-in {
+  animation: fade 1s ease-in;
+}
+
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .hero {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .about-text {
+    column-count: 1;
+  }
+
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<div class="navbar">
+  <h2>BrandName</h2>
+  <div>
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<!-- HERO -->
+<section class="hero fade-in">
+  <div class="hero-text">
+    <h1>Build Professional Websites</h1>
+    <p>We create modern, scalable, and responsive web solutions for businesses.</p>
+    <a href="#" class="btn">Get Started</a>
+  </div>
+  <div>
+    <img src="https://picsum.photos/500" width="100%" style="border-radius:10px;">
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <h2>Our Services</h2>
+  <div class="service-grid">
+    <div class="service">
+      <i class="fas fa-code"></i>
+      <h3>Web Development</h3>
+      <p>High-quality websites with modern technologies.</p>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-paint-brush"></i>
+      <h3>UI/UX Design</h3>
+      <p>Clean and user-friendly interfaces.</p>
+    </div>
+
+    <div class="service">
+      <i class="fas fa-chart-line"></i>
+      <h3>SEO Optimization</h3>
+      <p>Improve your visibility and rankings.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about">
+  <h2>About Us</h2>
+  <div class="about-text">
+    <p>
+      We are a team of professionals dedicated to building high-quality digital products.
+      Our focus is on delivering scalable and efficient solutions tailored to client needs.
+      With years of experience in design and development, we ensure every project meets
+      industry standards.
+    </p>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div>
+      <h3>Company</h3>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+    </div>
+
+    <div>
+      <h3>Services</h3>
+      <a href="#">Web Dev</a>
+      <a href="#">Design</a>
+    </div>
+
+    <div>
+      <h3>Contact</h3>
+      <p>Email: info@company.com</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
